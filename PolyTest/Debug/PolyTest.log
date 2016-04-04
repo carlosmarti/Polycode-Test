@@ -1,0 +1,5 @@
+﻿  Main.cpp
+Main.obj : error LNK2019: unresolved external symbol "public: __thiscall Polycode::PolycodeView::PolycodeView(struct HINSTANCE__ *,int,wchar_t const *,bool,bool)" (??0PolycodeView@Polycode@@QAE@PAUHINSTANCE__@@HPB_W_N2@Z) referenced in function _WinMain@16
+PolyEntry.obj : error LNK2019: unresolved external symbol "public: bool __thiscall Polycode::Core::updateAndRender(void)" (?updateAndRender@Core@Polycode@@QAE_NXZ) referenced in function "public: bool __thiscall PolyEntry::Update(void)" (?Update@PolyEntry@@QAE_NXZ)
+PolyEntry.obj : error LNK2019: unresolved external symbol "public: __thiscall Polycode::Win32Core::Win32Core(class Polycode::PolycodeViewBase *,int,int,bool,bool,int,int,int,int,bool)" (??0Win32Core@Polycode@@QAE@PAVPolycodeViewBase@1@HH_N1HHHH1@Z) referenced in function "public: __thiscall PolyEntry::PolyEntry(class Polycode::PolycodeView *)" (??0PolyEntry@@QAE@PAVPolycodeView@Polycode@@@Z)
+c:\users\carlos\documents\visual studio 2015\Projects\PolyTest\Debug\PolyTest.exe : fatal error LNK1120: 3 unresolved externals
